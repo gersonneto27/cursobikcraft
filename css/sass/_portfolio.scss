@@ -11,15 +11,13 @@
 
 .quote_cliente p{
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    line-height: 25px;
+    @include tipo-2(18);
     font-style: italic;
     margin-bottom: 20px;
 }
 
 .quote_cliente cite{
-    font-size: 18px;
+    @include tipo-1(18);
     font-weight: bold;
     text-align: right;
     float: right;
